@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="318.0" layoutY="325.0" mnemonicParsing="false" onAction="#run" text="Button" />
+      <TextField fx:id="arrayTextField" layoutX="14.0" layoutY="325.0" prefWidth="211.0" />
+      <TextArea fx:id="outputTextArea" layoutX="14.0" layoutY="14.0" prefHeight="281.0" prefWidth="366.0" />
+      <TextField fx:id="sumTextField" layoutX="238.0" layoutY="325.0" prefHeight="27.0" prefWidth="66.0" />
+   </children>
+</Pane>
